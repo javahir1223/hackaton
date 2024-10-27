@@ -1,0 +1,136 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: skyblue;
+    color: #fff;
+  }
+  
+  .logo a {
+    font-size: 1.5em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s;
+  }
+  
+  .nav a:hover {
+    color: #1e90ff;
+  }
+  
+  .header-button .btn {
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    transition: background-color 0.3s;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .nav ul {
+        display: none;
+    }
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .header-button {
+        margin-top: 10px;
+    }
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  
+  }
+  
+  .nav{
+    width: 100px;
+    height: 50px;
+    ul{
+      text-align: center;
+      justify-content: center;
+      margin-top: 15px;
+    }
+  }
+  
+  @keyframes gradientBackground {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .header {
+    background: #1d4ed8;
+    background-size: 800% 800%;
+    animation: gradientBackground 15s ease infinite;
+  }
+  ul{
+    font-size: 20px;
+  } 
+  iframe{
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+  }
+  .Problems{
+    display: flex;
+    justify-content: space-evenly;
+    img{
+      display: flex;
+      align-items: center;
+      margin-left: 50px;
+      margin-top: 20px;
+    }
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 50px;
+    p{
+      width: 100px;
+      margin-left: 50px;
+      text-align: center;
+    }
+  }
+  video{
+    width: 100%;
+    height: auto;
+  }
+  button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    transition: background-color 0.3s;
+    border: 1px solid white;
+    margin-top: 20px;
+    background-color: skyblue;
+    color: black;
+  }
+  .home-page{
+    background-color: #1d4ed8;
+    color: white;
+  }
+  
